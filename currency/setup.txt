@@ -1,0 +1,52 @@
+Steps
+
+Open the page:
+https://mvnrepository.com/artifact/org.json/json
+
+Click the latest version (example: 20231013).
+
+Scroll down to "Files".
+
+Click jar (xx KB) to download the JAR file.
+
+After downloading, move the file into your project folder (e.g. /lib).
+
+Add JAR to your project
+
+👉 If using IntelliJ IDEA
+
+Right-click your project → Open Module Settings
+
+Go to Libraries
+
+Click + → Java
+
+Select the downloaded .jar
+
+Click Apply → OK
+
+Click on file → project structure → modules → dependencies. 
+
+Click the present .jar file, make sure the scope is set to compile.
+
+ Hit ok.
+
+👉 If using NetBeans
+
+Right-click project → Properties
+
+Go to Libraries
+
+Click Add JAR/Folder
+
+Select the .jar
+
+Click OK
+
+👉 If using Eclipse
+
+Right-click project → Build Path → Add External Archives
+
+Select the .jar
+
+Click Apply and Close
